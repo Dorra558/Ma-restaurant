@@ -1,6 +1,10 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+}
 body {
     margin: 0;
     background-color: #f3f2f2;
+    overflow-x: hidden;
 }
 
 
@@ -11,7 +15,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(212, 133, 133, 0.664);
+    background-color: rgba(228, 220, 220, 0.664);
 }
 
 .navbar-brand {
@@ -71,6 +75,7 @@ body {
 
 .card-img-overlay:hover {
     background-color: transparent;
+    cursor: pointer;
 }
 
 .card-text {
@@ -82,6 +87,7 @@ body {
     margin-top: 12rem;
     background-color: rgba(56, 54, 54, 0.664);
     padding-top: 10px;
+    cursor: pointer;
 }
 
 
@@ -93,4 +99,43 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+.service h4{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ***********************Testmonials************************************ */
+
+/* **************************************************Page Aout Us*************************************************** */
+.about{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imgs/spagetti.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 25rem;
+}
+.about h1 {
+    text-align: center;
+    color: white;
+}
+.about p{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.parag p{
+
+    line-height: 33px;
+}
+.galery{
+    background-color: #fff;
+}
+
+.chef img{
+    height: 15rem;
 }
